@@ -1,0 +1,89 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    width: 100%; height: 100%;
+    background: black; color: white;
+    font-size: 2rem; line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header p{
+    width: 10%; height: 100;
+    border: 0px solid white;
+}
+
+header .na{
+    width: 20%;
+}
+
+.at1{
+    width: 90%; height: 700px;
+    border: 0px solid black;
+    margin: 50px auto;
+    display: flex;
+}
+
+.at1 .sec1{
+    width: 20%;
+    border: 0px solid goldenrod;
+}
+
+.at1 .sec1 div{
+    width: 80%; height: 150px;
+    border: 0px solid navy;
+    margin: 60px auto;
+}
+
+.at1 .sec1 div img{
+    width: 100%; height: 100%;
+}
+
+.at1 .sec2{
+    width: 80%;
+    border: 0px solid blueviolet;
+    margin: 50px;
+}
+
+.at1 .sec2 .pic{
+    width: 100%; height: 450px;
+    border: 0px solid firebrick;
+}
+
+.at1 .sec2 .pic img{
+    width: 100%; height: 100%;
+}
+
+.at1 .sec2 .text{
+    width: 100%; height: 150px;
+    border: 0px solid green;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center; line-height: 70px;
+}
+
+.at1 .sec2 .text p{
+    width: 50%; height: 70px;
+    border: 0px solid hotpink;
+}
+
+.at1 .sec2 .text .big{
+    font-size: 1.5rem;
+    font-weight: bold;
+    line-height: 100px;
+}
+
+.at1 .sec2 .text .small{
+    font-size: 12px;
+    line-height: 30px;
+}
