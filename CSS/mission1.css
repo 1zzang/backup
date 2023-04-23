@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    width: 1200px;
+    height: 850px;
+    border: 0px solid black;
+    margin: 0 auto;
+    background: rgb(230, 219, 240);
+}
+
+.top{
+    width: 1100px;
+    height: 600px;
+    outline: 0px solid rgb(141, 49, 49);
+    margin: 0 auto;
+    background: white;
+    display: flex;
+}
+
+.top div:first-child{
+    width: 300px;
+    height: 600px;
+    outline: 0px solid black;
+    text-align: center;
+}
+
+.left div p{
+    width: 200px;
+    height: 250px;
+    outline: 0px solid black;
+    margin: 0 auto;
+}
+
+.left div img{
+    width: 100%; height: 100%;
+    padding: 50px;
+}
+
+.left div:last-child p{
+    outline: 1px solid white;
+    background: rgb(230, 219, 240);
+    color: white;
+    width: 65%;
+    height: 25px;
+    line-height: 1px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.right{
+    width: 800px;
+    height: 600px;
+    margin: 0 auto;
+    outline: 3px solid rgb(230, 219, 240);
+}
+
+.right img{
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+}
+
+.bottom{
+    width: 1200px;
+    height: 180px;
+    outline: 0 solid rgb(141, 49, 49);
+    margin: 0 auto;
+}
+
+.container div{
+    display: flex;
+    justify-content: center;
+  }
+
+.bottom div{
+    cursor: pointer;
+    margin: 20px;
+    float: left;
+    width: 150px;
+    height: 120px;
+    text-align: center;
+    line-height: 110px;
+    font-size: 20px;
+    outline: 2px solid white;
+    color: white;
+}
+
+.bottom div:hover{
+    background: white;
+    color: rgb(230, 219, 240);
+}

@@ -1,0 +1,28 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+header{
+    width: 100%; height: 100%;
+    background: black; color: white;
+    font-size: 2rem; line-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+header p{
+    width: 10%; height: 100;
+    border: 1px solid white;
+}
+
+header .na{
+    width: 20%;
+}
