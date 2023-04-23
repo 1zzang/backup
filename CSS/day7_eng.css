@@ -1,0 +1,33 @@
+nav{
+    width: 100%; height: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+nav div{
+    width: 10%; height: 100;
+    border: 1px solid black;
+    text-align: center; line-height: 50px;
+}
+
+.at{
+    position: absolute; top: 100px; left: 0px;
+    width: 100%; height: 100%;
+    padding: 50px;
+    background: white;
+    /* display: none; */
+}
+
+/* 부모태그가 display: none; 상태일 때, 작업 할 자식태그를 display:block으로 변경해서 보면서 수정 */
+.at0{
+    /* display: block; */
+}
+
+.at1{
+    display: flex;
+}
+
+.at1 div{
+    width: 200px; height: 100px;
+    border: 1px solid black;
+}

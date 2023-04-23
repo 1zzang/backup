@@ -1,0 +1,62 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+.back {
+    position: fixed; top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: black;
+    color: white;
+    /* display: flex;
+    justify-content: center; */
+}
+
+/* 직접 만들어 본 것
+.back ul{
+    width: 300px; height: 150px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.back ul li{
+    width: 100px; height: 50px;
+    margin: 50px auto;
+    border: 1px solid white;
+} */
+
+.box{
+    position: fixed; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px; height: 150px;
+    border: 0px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center; /* 세로로 가운데 정렬 */
+}
+
+.box p{
+    width: 100px; height: 50px;
+    border: 0px solid #555;
+    text-align: center; line-height: 50px;
+    opacity: 0.7; /* 투명도 */
+    cursor: pointer;
+}
+
+.box p:hover{
+    opacity: 1;
+}
+
+.box p:first-child{
+    margin-right: 10px;
+}
+
+.box p a{
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    display: block;
+}
